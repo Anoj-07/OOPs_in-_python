@@ -19,6 +19,16 @@ print(cake1.flavour)
 # self refers to this object.
 # name is the value we pass in.
 
+# __init__() Method :
+# __init__() function is a constructor method in Python. 
+
+class Dog:
+     species = 'Dog' # class attribute
+
+     def __init__(self, name, age): # constructor method
+         self.name = name # instance attribute
+         self.age = age # instance attribute
+
 
 # ---------Adding methods to class------------
 class cake:
