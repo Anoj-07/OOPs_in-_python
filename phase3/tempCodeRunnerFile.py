@@ -1,0 +1,1 @@
+print(s.get_name())
